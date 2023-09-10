@@ -1,5 +1,5 @@
 /* ----- NAVIGATION BAR FUNCTION ----- */
-function myMenuFunction(){
+  function myMenuFunction(){
     let menuBtn = document.getElementById("myNavMenu");
 
     if(menuBtn.className === "nav-menu"){
@@ -8,6 +8,11 @@ function myMenuFunction(){
       menuBtn.className = "nav-menu";
     }
   }
+/* ----- NAVIGATION BAR LOGO FUNCTION ----- */
+  var logo = document.getElementById("logo");
+  logo.addEventListener("click", function () {
+      window.location.href = "index.html"; 
+  });
 
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
   window.onscroll = function() {headerShadow()};
