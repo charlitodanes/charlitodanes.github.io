@@ -124,24 +124,29 @@ downloadButtons.forEach(button => {
 });
 
 /* ----- SOCIAL LINKS ----- */
-const instagramButtons = document.querySelectorAll(".uil-instagram");
-instagramButtons.forEach(i => {
-  i.addEventListener("click", function() {
+const instagramButtons = document.querySelectorAll(".instagram-icon");
+instagramButtons.forEach(div => {
+  div.addEventListener("click", function() {
     window.open("https://www.instagram.com/charlitodanes/", "_blank");
   });
 });
 
-const linkedinButtons = document.querySelectorAll(".uil-linkedin-alt");
-linkedinButtons.forEach(i => {
-  i.addEventListener("click", function() {
+const linkedinButtons = document.querySelectorAll(".linkedin-icon");
+linkedinButtons.forEach(div => {
+  div.addEventListener("click", function() {
     window.open("https://www.linkedin.com/in/charlitodanes/", "_blank");
   });
 });
 
-const githubButtons = document.querySelectorAll(".uil-github-alt");
-githubButtons.forEach(i => {
-  i.addEventListener("click", function() {
-    window.open("https://github.com/charlitodanes", "_blank");
+const githubButtons = document.querySelectorAll(".github-icon");
+githubButtons.forEach(div => {
+  div.addEventListener("click", function() {
+    window.open("https://www.github.com/charlitodanes/", "_blank");
   });
 });
+
+
+
+
+
 
