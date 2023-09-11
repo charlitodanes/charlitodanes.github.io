@@ -16,6 +16,10 @@ a{
     text-decoration: none;
     color: var(--white);
 }
+/* header */
+h3 {
+    cursor: pointer;
+}
 /* background */
 .area {
     background: #4e54c8;

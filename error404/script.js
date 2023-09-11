@@ -1,5 +1,10 @@
 /* ----- BACK BUTTON ----- */
-const downloadButton = document.getElementById("back");
-downloadButton.addEventListener("click", function() {
-    window.location.href = "../index.html";
+const backButton = document.getElementById("back-name");
+backButton.addEventListener("click", function() {
+    window.history.back();
+});
+
+const backButton2 = document.getElementById("back-button");
+backButton2.addEventListener("click", function() {
+    window.history.back();
 });
