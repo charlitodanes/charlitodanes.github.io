@@ -65,6 +65,13 @@ sr.reveal('.featured-image',{delay: 300})
 /* -- PROJECT BOX -- */
 sr.reveal('.project-box',{interval: 200})
 
+const projectButton = document.querySelectorAll(".project-box");
+projectButton.forEach(div => {
+  div.addEventListener("click", function() {
+    window.location.href = "./error404/error404.html";
+  });
+});
+
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})
 
